@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sesion 03</string>
+    <string name="activity_main_name">Nombre</string>
+    <string name="activity_main_name_hint">Ingresa tu nombre</string>
+    <string name="activity_main_phone">Teléfono</string>
+    <string name="activity_main_phone_hint">Ingresa tu teléfono</string>
+    <string name="activity_main_save">Guardar</string>
+    <string name="activity_main_error_no_name">Favor de ingresar el nombre</string>
+    <string name="activity_main_error_no_phone">Favor de ingresar el teléfono</string>
+</resources>

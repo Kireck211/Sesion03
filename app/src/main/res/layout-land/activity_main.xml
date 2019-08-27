@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/activity_main_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/activity_main_name_hint"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:maxLines="1" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/activity_main_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/activity_main_phone_hint"
+        android:imeOptions="actionDone"
+        android:inputType="phone"
+        android:maxLines="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_main_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_save" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
